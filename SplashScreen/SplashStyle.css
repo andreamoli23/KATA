@@ -1,0 +1,9 @@
+html { background-color: #000;}
+
+body{
+    min-height: 100vh;
+    max-width: 412px;
+    background-color: #FFC91B;
+    margin: 0 auto;
+}
+
