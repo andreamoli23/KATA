@@ -1,27 +1,27 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
- 
-}
+html { background-color: #000;}
 
-.container {
-    width: 100%;
+body{
+    min-height: 100vh;
     max-width: 412px;
-    height: 917px;
-    background-color: #FFD700; /* Fondo amarillo */
-    display: flex;
+    background-color: #FFC91B;
+    margin: 0 auto;
+    font-display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
+.container {
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+.logo img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   padding: 0px 34px 0px 33px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 
-.logo {
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    font-size: 3em;
-    color: #FFFFFF;
-    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000;
+
 }
