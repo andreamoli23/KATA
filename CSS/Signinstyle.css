@@ -1,8 +1,8 @@
-.log-in,
-.log-in * {
+.sign-in,
+.sign-in * {
   box-sizing: border-box;
 }
-.log-in {
+.sign-in {
   background: #ffffff;
   height: 852px;
   position: relative;
@@ -88,9 +88,9 @@
   justify-content: flex-start;
   width: 331px;
   position: absolute;
-  left: 32px;
-  top: 324px;
-font-family: "Inter-Regular", sans-serif;
+  left: 31px;
+  top: 317px;
+
 }
 .menu-item2 {
   color: var(--light-palette-black, #000000);
@@ -102,9 +102,36 @@ font-family: "Inter-Regular", sans-serif;
   font-weight: 400;
   position: relative;
   flex: 1;
-	
 }
 .menu-item3 {
+  background: rgba(237, 237, 237, 0.8);
+  border-radius: 12px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 331px;
+  position: absolute;
+  left: 33px;
+  top: 402px;
+}
+.menu-item4 {
+  background: rgba(237, 237, 237, 0.8);
+  border-radius: 12px;
+  padding: 12px 16px 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 331px;
+  position: absolute;
+  left: 30px;
+  top: 487px;
+}
+.menu-item5 {
   background: rgba(237, 237, 237, 0.8);
   border-radius: 12px;
   padding: 11px 16px 11px 16px;
@@ -118,8 +145,9 @@ font-family: "Inter-Regular", sans-serif;
   left: 32px;
   top: 234px;
 	font-family: "Inter-Regular", sans-serif;
+	font-family: "Inter-Regular", sans-serif;
 }
-.menu-item4 {
+.menu-item6 {
   background: #ffc91b;
   border-radius: 12px;
   padding: 12px 16px 12px 16px;
@@ -130,8 +158,8 @@ font-family: "Inter-Regular", sans-serif;
   justify-content: flex-start;
   width: 331px;
   position: absolute;
-  left: 29px;
-  top: 430px;
+  left: 31px;
+  top: 572px;
 }
 .title-item {
   color: #000000;
@@ -147,8 +175,8 @@ font-family: "Inter-Regular", sans-serif;
   width: 24px;
   height: 24px;
   position: absolute;
-  left: 304px;
-  top: 336px;
+  left: 316px;
+  top: 498px;
   overflow: visible;
 }
 .theme-dark-options-2-selected-left {
@@ -197,6 +225,7 @@ font-family: "Inter-Regular", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+	
 }
 .atoms2 {
   border-radius: 7px;
@@ -211,80 +240,6 @@ font-family: "Inter-Regular", sans-serif;
   width: 158px;
   position: relative;
 }
-.checkboxes {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  position: absolute;
-  left: 35px;
-  top: 386px;
-}
-.box {
-  border-radius: 4.78px;
-  border-style: solid;
-  border-color: var(--hig-light-default-gray, #8e8e93);
-  border-width: 2.2px;
-  padding: 2px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 22px;
-  height: 22px;
-  position: relative;
-}
-.h-frame-text {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: flex-start;
-  justify-content: center;
-  width: 231px;
-  position: absolute;
-  left: 63px;
-  top: 388px;
-}
-.v-frame {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.remember {
-  color: #ffc91b;
-  text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 17px;
-  line-height: 22px;
-  letter-spacing: -0.41px;
-  font-weight: 400;
-  position: relative;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-}
-.forgot-password {
-  color: var(--labelcolor-light-primary, #000000);
-  text-align: center;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 17px;
-  line-height: 22px;
-  letter-spacing: -0.41px;
-  font-weight: 400;
-  position: absolute;
-  left: 216px;
-  top: 490px;
-  transform-origin: 0 0;
-  transform: rotate(0deg) scale(1, 1);
-}
 .continue-with-google-left-aligned-fixed {
   background: #ffffff;
   border-radius: 10px;
@@ -294,10 +249,11 @@ font-family: "Inter-Regular", sans-serif;
   gap: 15px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 345px;
+  width: 331px;
+  height: 51px;
   position: absolute;
-  left: 32px;
-  top: 559px;
+  left: 30px;
+  top: 651px;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.17),
     0px 0px 3px 0px rgba(0, 0, 0, 0.08);
 }
@@ -332,10 +288,11 @@ font-family: "Inter-Regular", sans-serif;
   gap: 15px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 345px;
+  width: 331px;
+  height: 51px;
   position: absolute;
-  left: 32px;
-  top: 633px;
+  left: 30px;
+  top: 721px;
 }
 .apple-logo {
   flex-shrink: 0;
@@ -351,8 +308,4 @@ font-family: "Inter-Regular", sans-serif;
   font-size: 20px;
   font-weight: 500;
   position: relative;
-}
-a {
-    text-decoration: none;
-    color: #333; /* Ejemplo de color negro */
 }

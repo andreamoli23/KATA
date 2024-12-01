@@ -1,0 +1,15 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --accent: #ffc91b;
+  --dark: #171717;
+  --background: #fffee5;
+
+  /* Fonts */
+	--fontfamily: "Inter-Regular", sans-serif;
+  /* Effects */
+}
+
+body {
+  font-family: var(--font-family);
+}
