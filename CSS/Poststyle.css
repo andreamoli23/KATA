@@ -1,0 +1,75 @@
+
+
+/*Aqui es el tamaño del celular*/
+.container {
+    font-family: "Inter-Regular", sans-serif;
+    background-color: #ffffff;
+}
+  
+  
+.profilepicture{
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    margin-right: 16px;
+}
+  
+.cap {
+    font-size: 14px;
+    margin-top: 8px;
+ }
+  
+.post-tab{
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    padding-top: 67px;
+    align-items: center;
+}
+
+.arrow{
+    width: 24px;
+    height: 23px;
+    cursor: pointer;
+}
+
+
+.options{
+    cursor: pointer;
+    width: 14.672px;
+    height: 3.144px;
+    top: 26.72px;
+    left: 362.61px;
+}
+
+.post-image{
+    width: 100%
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.opciones{
+    margin-left: auto;
+}
+
+.actions, .likes-info{
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.actions img, .likes-info img{
+    height: 24px;
+}

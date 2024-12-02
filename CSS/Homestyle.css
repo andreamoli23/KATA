@@ -632,3 +632,8 @@
   position: relative;
   align-self: stretch;
 }
+
+.tab-item{
+  max-width: 393px;
+  max-height: 892px ;
+}
