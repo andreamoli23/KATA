@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-bottom: 60px; 
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.edit-icon {
+    display: flex;
+    width: 34.318px;
+    height: 34.318px;
+    padding: 8px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    padding: 5px;
+}
+
+.profile h2 {
+    margin: 10px 0 5px;
+}
+
+.profile p {
+    color: #888;
+}
+
+.settings {
+    margin-bottom: 20px;
+}
+
+.settings h3 {
+    margin-bottom: 10px;
+}
+
+.settings .setting-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.settings .setting-item:last-child {
+    border-bottom: none;
+}
+
+.logout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout button {
+    display: flex;
+    width: 350px;
+    padding: 18px 131px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #E53535;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout button:hover {
+    background-color: #ff1a1a;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.nav-item {
+    text-align: center;
+    font-size: 24px;
+    color: #888;
+}
+
+.nav-item:hover {
+    color: #000;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+}
