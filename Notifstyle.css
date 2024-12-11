@@ -70,7 +70,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 20px 0px;
     background-color: #fff;
     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -83,13 +83,66 @@ body {
     text-align: center;
     font-size: 24px;
     color: #888;
+	margin-right: 50px
 }
 
 .nav-item:hover {
     color: #000;
 }
+.icon-home{
+    list-style: none;
+    justify-content: center;
+     }
+.icon-home{
+	
+    margin: 0 10px;
 
-/* Responsive Design */
+}
+
+.bell-stroke-icon{
+	list-style: none;
+    display: flex;
+    justify-content: center;
+
+     }
+.bell-stroke-icon{
+	
+    margin: 0 10px;
+	}
+.icon-user{
+	list-style: none;
+    display: flex;
+    justify-content: center;
+     }
+.icon-user{
+	
+    margin: 0 10px;
+}
+.icon-settings{
+	list-style: none;
+    display: flex;
+    justify-content: center;
+     }
+.icon-settings{
+	
+    margin: 0 10px;
+}
+.photo-icon{
+	list-style: none;
+    display: flex;
+    justify-content: center;
+     }
+.photo-icon{
+	
+    margin: 0 10px;
+}
+.nav-bar {
+     list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0;
+}
+
 @media (max-width: 600px) {
     .container {
         max-width: 100%;

@@ -843,81 +843,83 @@ height: 12px;
   top: calc(50% - 29.5px);
 }
 .footer {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 0px;
-    background-color: #fff;
-    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    max-width: 600px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  background-color: #fff;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 600px;
 }
 
 .nav-item {
-    text-align: center;
-    font-size: 24px;
-    color: #888;
-	margin-right: 50px
+  text-align: center;
+  font-size: 24px;
+  color: #888;
+margin-right: 50px
 }
 
 .nav-item:hover {
-    color: #000;
+  color: #000;
 }
 .icon-home{
-    list-style: none;
-    justify-content: center;
-     }
+  list-style: none;
+  justify-content: center;
+   }
 .icon-home{
-	
-    margin: 0 10px;
+
+  margin: 0 10px;
 
 }
 
 .bell-stroke-icon{
-	list-style: none;
-    display: flex;
-    justify-content: center;
+list-style: none;
+  display: flex;
+  justify-content: center;
 
-     }
+   }
 .bell-stroke-icon{
-	
-    margin: 0 10px;
-	}
+
+  margin: 0 10px;
+}
 .icon-user{
-	list-style: none;
-    display: flex;
-    justify-content: center;
-     }
+list-style: none;
+  display: flex;
+  justify-content: center;
+   }
 .icon-user{
-	
-    margin: 0 10px;
+
+  margin: 0 10px;
 }
 .icon-settings{
-	list-style: none;
-    display: flex;
-    justify-content: center;
-     }
+list-style: none;
+  display: flex;
+  justify-content: center;
+   }
 .icon-settings{
-	
-    margin: 0 10px;
+
+  margin: 0 10px;
 }
 .photo-icon{
-	list-style: none;
-    display: flex;
-    justify-content: center;
-     }
+list-style: none;
+  display: flex;
+  justify-content: center;
+   }
 .photo-icon{
-	
-    margin: 0 10px;
+
+  margin: 0 10px;
 }
 .nav-bar {
-     list-style: none;
-    display: flex;
-    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
-    padding: 0;
+   list-style: none;
+  display: flex;
+  justify-content: space-between; 
+  padding: 0;
 }
+
 @media (max-width: 600px) {
-    .container {
-        max-width: 100%;
-    }
+  .container {
+      max-width: 100%;
+  }
+}
