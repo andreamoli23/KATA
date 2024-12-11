@@ -1,4 +1,4 @@
-html { background-color: #000;}
+html { background-color: #FFC91B;}
 
 body{
     min-height:892px;
@@ -24,4 +24,19 @@ body{
    align-items: center;
 
 
+}
+
+.logo {
+    animation: closeSearch2 800ms forwards;
+}
+
+@keyframes closeSearch2 {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    } 
 }
