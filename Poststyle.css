@@ -71,3 +71,25 @@
 .actions img, .likes-info img{
     height: 24px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.nav-item {
+    text-align: center;
+    font-size: 24px;
+    color: #888;
+}
+
+.nav-item:hover {
+    color: #000;
+}
