@@ -8,6 +8,13 @@
   position: relative;
   overflow: hidden;
 }
+a {
+  visibility: hidden;
+}
+
+a:hover {
+  visibility: visible;
+}
 .bars-status-bar-i-phone-light {
   height: 47px;
   position: absolute;
@@ -786,16 +793,7 @@
   align-items: center;
   justify-content: center;
 }
-.message-stroke-icon {
-  width: 71.43%;
-  height: 64.29%;
-  position: absolute;
-  right: 12.86%;
-  left: 15.71%;
-  bottom: 7.14%;
-  top: 28.57%;
-  overflow: visible;
-}
+
 .label {
   color: var(--System-Label-Secondary, rgba(60, 60, 67, 0.60));
 text-align: center;
@@ -810,22 +808,6 @@ width: 76px;
 height: 12px;
 	overflow: visible;
 }
-.notificacion {
-    color: var(--System-Label-Secondary, rgba(60, 60, 67, 0.60));
-    text-align: center;
-    font-feature-settings: 'liga' off, 'clig' off;
-    font-family: Inter;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 12px; /* 120% */
-    letter-spacing: -0.4px;
-    width: 76px;
-    height: 12px;
-	position: relative;
-	left: 90px;
-
-}
 .stack2 {
   display: flex;
   flex-direction: column;
@@ -837,16 +819,7 @@ height: 12px;
   translate: -50%;
   top: calc(50% - 31.5px);
 }
-.bell-stroke-icon {
-    width: 68.76%;
-    height: 70.54%;
-    position: absolute;
-    right: 17.67%;
-    left: 90px;
-    bottom: 0.89%;
-    top: 28.57%;
-    overflow: visible;
-}
+
 
 .stack3 {
   display: flex;
@@ -858,16 +831,7 @@ height: 12px;
   left: calc(50% - -116.5px);
   top: calc(50% - 31.5px);
 }
-.icon-user {
-  width: 85.71%;
-  height: 85.71%;
-  position: absolute;
-  right: 6.43%;
-  left: 7.86%;
-  bottom: -3.57%;
-  top: 17.86%;
-  overflow: visible;
-}
+
 .stack4 {
   display: flex;
   flex-direction: column;
@@ -878,34 +842,82 @@ height: 12px;
   left: calc(50% - 172.5px);
   top: calc(50% - 29.5px);
 }
-.icon-home {
-  width: 85.71%;
-  height: 94.08%;
-  position: absolute;
-  right: 3.57%;
-  left: 10.71%;
-  bottom: -4.79%;
-  top: 10.71%;
-  overflow: visible;
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: #fff;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 600px;
 }
-.gradient-gradient-02 {
-  width: 43px;
-height: 43px;
-flex-shrink: 0;
-  position: absolute;
-  right: 44.53%;
-  left: 47.53%;
-  bottom: 38.82%;
-  top: 10.59%;
-  overflow: visible;
+
+.nav-item {
+    text-align: center;
+    font-size: 24px;
+    color: #888;
+	margin-right: 50px
 }
-.icon-plus {
-  width: 6.11%;
-  height: 28.24%;
-  position: absolute;
-  right: 46.82%;
-  left: 50.07%;
-  bottom: 49.41%;
-  top: 22.35%;
-  overflow: visible;
+
+.nav-item:hover {
+    color: #000;
 }
+.icon-home{
+    list-style: none;
+    justify-content: center;
+     }
+.icon-home{
+	
+    margin: 0 10px;
+
+}
+
+.bell-stroke-icon{
+	list-style: none;
+    display: flex;
+    justify-content: center;
+
+     }
+.bell-stroke-icon{
+	
+    margin: 0 10px;
+	}
+.icon-user{
+	list-style: none;
+    display: flex;
+    justify-content: center;
+     }
+.icon-user{
+	
+    margin: 0 10px;
+}
+.icon-settings{
+	list-style: none;
+    display: flex;
+    justify-content: center;
+     }
+.icon-settings{
+	
+    margin: 0 10px;
+}
+.photo-icon{
+	list-style: none;
+    display: flex;
+    justify-content: center;
+     }
+.photo-icon{
+	
+    margin: 0 10px;
+}
+.nav-bar {
+     list-style: none;
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+    padding: 0;
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
