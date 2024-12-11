@@ -2,9 +2,7 @@ body {
     font-family: "Inter-Regular", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fffefe;
-    padding-left: 15px; 
-    padding-right: 15px; 
+    background-color: #f5f5f5;
 }
 
 .container {
@@ -64,16 +62,14 @@ body {
 }
 
 .logout {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    text-align: center;
     margin-top: 20px;
 }
 
 .logout button {
-    width: 100%; 
-    max-width: 350px; 
-    padding: 18px 0; 
+    display: flex;
+    width: 350px;
+    padding: 18px 131px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -87,7 +83,6 @@ body {
 .logout button:hover {
     background-color: #ff1a1a;
 }
-
 
 .footer {
     display: flex;
